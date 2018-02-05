@@ -109,8 +109,6 @@ namespace DictionaryPractice
                 }
             }
 
-            Console.WriteLine(highest);
-
             foreach (KeyValuePair<string, int> animal in zooAnimal)
             {
                 if (animal.Value == highest)
@@ -118,6 +116,13 @@ namespace DictionaryPractice
                     Console.WriteLine(animal.Key);
                 }
             }
+
+        // Remove the zoo animal with the lowest quantity from the dictionary using the Remove method.
+        // Use the Count property to count the number of remaining entries in the dictionary. Print to the console.
+        // Create a program that allows a user to input an animal name to check to see if the dictionary contains that animal name.
+        // If the animal does not exist in the dictionary, ask the user if he / she would like to add it.If so, add the animal to the dictionary.
+
+
         }
     }
 }
